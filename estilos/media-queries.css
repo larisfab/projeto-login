@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    html, body {
+        background-image: linear-gradient(#5f2c82, #49a09d);
+    }
+
+    main {
+        width: 80vw;
+        display: flex;
+    }
+
+    div#imagem {
+        width: 70%;
+        height: auto;
+        background-size: cover;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    div.userpass input {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 80vw;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    div#imagem {
+        border-radius: 0px 20px 20px 0px;
+    }
+}

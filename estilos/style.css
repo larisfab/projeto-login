@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#imagem {
+    height: 270px;
+    background: black url(../imagens/pexels-guilherme-rossi-1755695.jpg);
+    background-position: center center; 
+    background-size: cover ;
+    border-radius: 20px 20px 0px 0px;
+}
+
+html, body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5f2c82;
+}
+
+main {
+    background-color: white;
+    width: 290px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.313);
+}
+
+div#login {
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+p {
+    font-size: 0.8em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.userpass {
+    background-color: #b663edde;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+i.material-icons {
+    color: white;
+}
+
+input {
+    background-color: #65dfdb;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input#esqueci {
+    background-color: white;
+    color: #49a09d;
+}
+
+input.botoes {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+}
